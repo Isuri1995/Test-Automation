@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="iTrade Application Test Automation Test Suite">
+    <test name="iTrade App Signin Test Case">
+        <classes>
+            <class name="com.xinfinit.automation.pageTests.SignUpTest"></class>
+        </classes>
+    </test>
+    <test name="iTrade App Login Test Case">
+        <classes>
+            <class name="com.xinfinit.automation.pageTests.LoginTest"></class>
+        </classes>
+    </test>
+    <test name="iTrade App Home Test Case">
+        <classes>
+            <class name="com.xinfinit.automation.pageTests.HomeTest"></class>
+        </classes>
+    </test>
+    <test name="iTrade App Workspace Test Case">
+        <classes>
+            <class name="com.xinfinit.automation.pageTests.WorkspaceTest"></class>
+        </classes>
+    </test>
+    <test name="iTrade App widget Test Case">
+        <classes>
+            <class name="com.xinfinit.automation.widgetsTests.AdvanceChartTest"></class>
+        </classes>
+    </test>
+
+
+
+
+
+</suite>
